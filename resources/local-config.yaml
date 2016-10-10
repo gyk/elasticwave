@@ -1,0 +1,13 @@
+
+elasticsearch.hosts: 
+    - 127.0.0.1
+elasticsearch.port: 9300
+elasticsearch.index: logs
+elasticsearch.type: log
+elasticsearch.use-bulk-api: true
+elasticsearch.bulk.flush.max.actions: 2000
+
+throughput: 1000
+
+# elasticsearch-config:
+#     cluster.name: elasticsearch
